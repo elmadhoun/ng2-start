@@ -1,0 +1,21 @@
+<div class="container-fluid">
+	<div class="page-header">
+		<h1>Dashboard <small>Subtext for header</small></h1>
+	</div>
+
+	<div class="jumbotron">
+	  <h1>Hello, world!</h1>
+	  <p>This is a simple angular2 example to start a new project, with nested configured routers, authentication guards, shared service for loading bar...</p>
+	  <p>
+	  	<a class="btn btn-primary btn-lg" routerLink="/login">Go To Login</a>
+	  </p>
+	</div>
+
+	<ul class="list-group">
+	  <li class="list-group-item">
+	  	<span class="badge">{{loader.counter}}</span>
+	  	<a (click)="getTimeNow()">Get time Now</a>
+	  </li>
+	</ul>
+
+</div>

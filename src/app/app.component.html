@@ -1,3 +1,3 @@
-<h1>
-  {{title}}
-</h1>
+<app-loader *ngIf="loader.loader.progress"></app-loader>
+<router-outlet></router-outlet>
+<toaster-container [toasterconfig]="toasterconfig"></toaster-container>

@@ -1,9 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
-/***************/
-/* APP SPINNER */
-/***************/
-
 #spinner-container{
 	width: 100%;
 	height: 100%;
@@ -11,6 +5,9 @@
 	text-align: center;
 	display: table;
 	background: #00a3fe;
+  z-index: 9999;
+  top: 5px;
+  opacity: 0.8;
 }
 
 #spinner-inner {
@@ -23,7 +20,6 @@
 	display: inline-block;
 	line-height: 70px;
 	margin: 5px;
-  margin-top: 15px; 
 }
 
 #app-name{

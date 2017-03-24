@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+		<div class="col-sm-6 col-sm-offset-3" style="margin-top: 100px">
+			<form class="form-horizontal" action='' method="POST">
+			  <fieldset>
+			    <div class="page-header">
+					<h1>Login <small>Subtext for header</small></h1>
+				</div>
+			    <div class="control-group">
+			      <!-- Username -->
+			      <label class="control-label"  for="username">Are you a robot?</label>
+			      <div class="controls">
+			        <input type="checkbox" name="robot" [(ngModel)]="checked"> I'm not a robot, i swear
+			      </div>
+			      <label class="control-label"  for="username">Username</label>
+			      <div class="controls">
+			        <input type="text" name="username" [(ngModel)]="currentUser" placeholder="username" class="input-xlarge" style="height:32px">
+			        <button class="btn btn-primary" (click)="login()">Login</button>
+			      </div>
+			    </div>
+			  </fieldset>
+			</form>
+		</div>
+	</div>
+</div>
